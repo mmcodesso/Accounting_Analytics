@@ -1,6 +1,8 @@
 # Quarto build artifacts
 _book/
 .quarto/
+.quarto
+_book
 
 # RStudio or VSCode project files (optional)
 .Rproj.user/
@@ -26,3 +28,6 @@ __pycache__/
 *.fls
 *.fdb_latexmk
 *.synctex.gz
+
+/.quarto/
+**/*.quarto_ipynb
