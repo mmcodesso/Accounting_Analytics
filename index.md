@@ -19,10 +19,6 @@ Accounting Analytics
 A Practical Approach
 :::
 
-::: {.book-hero__rule}
-Textbook Overview and Preface
-:::
-
 ::: {.book-hero__tools}
 [Excel]{.tool-pill .tool-excel}
 [SQL]{.tool-pill .tool-sql}
