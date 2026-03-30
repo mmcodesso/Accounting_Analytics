@@ -1,5 +1,5 @@
 ---
-title: "Chapter 1: The Role of Analytics in Accounting"
+title: "The Role of Analytics in Accounting"
 ---
 
 ::: {.chapter-meta}
@@ -437,7 +437,7 @@ D. The regression would not be considered analytics because it involves statisti
 
 ## Applied Exercises
 
-### Financial Accounting Exercises {.exercise-perspective .financial-accounting}
+### Financial Accounting Exercises {.exercise-perspective .financial-accounting .unnumbered}
 
 **Exercise 1.1 (Financial Accounting): Mapping Datasets to the Financial Reporting Cycle**
 
@@ -461,7 +461,7 @@ D. The regression would not be considered analytics because it involves statisti
 **Deliverable.** A written comparison of the revenue data available in each dataset, with specific table and column references.
 
 
-### Managerial Accounting Exercises {.exercise-perspective .managerial-accounting}
+### Managerial Accounting Exercises {.exercise-perspective .managerial-accounting .unnumbered}
 
 **Exercise 1.3 (Managerial Accounting): Evaluating Datasets for Cost Analysis**
 
@@ -485,7 +485,7 @@ D. The regression would not be considered analytics because it involves statisti
 **Deliverable.** A written overview of the production-related data in AdventureWorks, suitable for a non-technical manager audience.
 
 
-### Auditing Exercises {.exercise-perspective .auditing}
+### Auditing Exercises {.exercise-perspective .auditing .unnumbered} 
 
 **Exercise 1.5 (Auditing): Assessing Data Availability for Audit Testing**
 

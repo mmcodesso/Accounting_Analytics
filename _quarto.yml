@@ -2,14 +2,19 @@ project:
   type: book
 
 book:
-  title: "Accounting Analytics: A Practical Approach"
+  title: "Accounting Analytics"
   author: "Mauricio Codesso"
   date: "3/30/2026"
   chapters:
     - index.md
-    - chapter_01.md
-
-bibliography: references.bib
+    - 00_introduction.md
+    - 01_chapter.md
+  sidebar:
+    contents:
+      - text: "Introduction"
+        href: 00_introduction.md
+      - text: "The Role of Analytics in Accounting"
+        href: 01_chapter.md
 
 format:
   html:
@@ -17,10 +22,11 @@ format:
       - cosmo
       - styles/book.scss
     toc: true
-    toc-depth: 3
+    toc-depth: 2
     fig-cap-location: bottom
     tbl-cap-location: top
     link-external-newwindow: true
+    number-sections: true
   pdf:
     documentclass: scrreprt
     include-in-header: styles/book-pdf.tex
