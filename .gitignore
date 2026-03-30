@@ -1,0 +1,28 @@
+# Quarto build artifacts
+_book/
+.quarto/
+
+# RStudio or VSCode project files (optional)
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+.vscode/
+
+# OS-specific junk
+.DS_Store
+Thumbs.db
+
+# Python virtual environments (if you use them)
+venv/
+.env/
+__pycache__/
+
+# LaTeX build artifacts (if rendering PDF)
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+*.synctex.gz

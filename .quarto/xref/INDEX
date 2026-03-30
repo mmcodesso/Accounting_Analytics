@@ -10,5 +10,11 @@
   },
   "references.qmd": {
     "references.html": "ea2025d8"
+  },
+  "index.md": {
+    "index.html": "f9028641"
+  },
+  "intro.md": {
+    "intro.html": "022e5b10"
   }
 }

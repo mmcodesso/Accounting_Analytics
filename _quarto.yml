@@ -6,10 +6,9 @@ book:
   author: "Mauricio Codesso"
   date: "3/30/2026"
   chapters:
-    - index.qmd
-    - intro.qmd
-    - summary.qmd
-    - references.qmd
+    - index.md
+    - intro.md
+
 
 bibliography: references.bib
 
