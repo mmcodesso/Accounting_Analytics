@@ -1,0 +1,301 @@
+/*-- scss:defaults --*/
+
+$primary-blue: #1A5276;
+$teal: #17A589;
+$coral: #E74C3C;
+$amber: #F39C12;
+$neutral-gray: #5D6D7E;
+$light-gray: #D5D8DC;
+$ink: #2C3E50;
+$paper: #FFFFFF;
+$soft-gray: #F4F6F7;
+
+$body-color: $ink;
+$body-bg: $paper;
+$link-color: $primary-blue;
+$headings-color: $primary-blue;
+$font-family-sans-serif: "Aptos", "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+$font-family-serif: "Palatino Linotype", "Book Antiqua", Georgia, serif;
+$font-family-base: $font-family-serif;
+$headings-font-family: $font-family-sans-serif;
+$line-height-base: 1.72;
+$border-radius: 0.75rem;
+
+/*-- scss:rules --*/
+
+:root {
+  --aa-primary: #{$primary-blue};
+  --aa-teal: #{$teal};
+  --aa-coral: #{$coral};
+  --aa-amber: #{$amber};
+  --aa-ink: #{$ink};
+  --aa-muted: #{$neutral-gray};
+  --aa-border: #{$light-gray};
+  --aa-soft: #{$soft-gray};
+}
+
+body {
+  text-rendering: optimizeLegibility;
+}
+
+.quarto-title-block .quarto-title-banner,
+#title-block-header {
+  background:
+    linear-gradient(135deg, rgba(26, 82, 118, 0.08), rgba(23, 165, 137, 0.04)),
+    linear-gradient(90deg, #fff 0%, #f8fbfc 100%);
+  border-bottom: 3px solid var(--aa-primary);
+  padding-top: 1.5rem;
+  padding-bottom: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.quarto-title-block .title,
+#title-block-header .title {
+  font-family: $headings-font-family;
+  font-size: clamp(2rem, 3vw, 2.6rem);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+}
+
+main.content p,
+.quarto-post .content p {
+  margin-bottom: 1rem;
+}
+
+h2,
+h3,
+h4 {
+  font-family: $headings-font-family;
+  letter-spacing: -0.01em;
+}
+
+h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 2px solid rgba(26, 82, 118, 0.12);
+}
+
+h3 {
+  margin-top: 1.8rem;
+}
+
+hr {
+  border: 0;
+  height: 2px;
+  background: linear-gradient(90deg, rgba(26, 82, 118, 0.4), rgba(26, 82, 118, 0));
+  margin: 2rem 0;
+}
+
+.chapter-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0.25rem 0 1.6rem;
+}
+
+.chapter-pill,
+.dataset-badge {
+  display: inline-flex;
+  align-items: center;
+  border-radius: 999px;
+  padding: 0.35rem 0.8rem;
+  font-family: $headings-font-family;
+  font-size: 0.82rem;
+  font-weight: 700;
+  line-height: 1;
+}
+
+.chapter-pill {
+  background: rgba(26, 82, 118, 0.08);
+  color: var(--aa-primary);
+  border: 1px solid rgba(26, 82, 118, 0.14);
+}
+
+.dataset-badge {
+  color: #fff;
+}
+
+.dataset-nw {
+  background: var(--aa-teal);
+}
+
+.dataset-aw {
+  background: var(--aa-primary);
+}
+
+.dataset-erp {
+  background: var(--aa-amber);
+  color: var(--aa-ink);
+}
+
+.learning-objectives {
+  background: linear-gradient(180deg, rgba(26, 82, 118, 0.04), rgba(26, 82, 118, 0.01));
+  border: 1px solid rgba(26, 82, 118, 0.12);
+  border-left: 6px solid var(--aa-primary);
+  border-radius: 1rem;
+  padding: 1rem 1.25rem 0.8rem;
+  margin: 1rem 0 1.75rem;
+}
+
+.learning-objectives p {
+  font-family: $headings-font-family;
+  font-weight: 700;
+  margin-bottom: 0.75rem;
+}
+
+.learning-objectives ol {
+  margin-bottom: 0.25rem;
+}
+
+.figure-placeholder,
+.table-placeholder {
+  border: 1px solid var(--aa-border);
+  border-left-width: 6px;
+  border-radius: 0.9rem;
+  padding: 1rem 1.1rem;
+  margin: 1.2rem 0 1.5rem;
+  box-shadow: 0 12px 24px rgba(44, 62, 80, 0.04);
+}
+
+.figure-placeholder {
+  border-left-color: var(--aa-primary);
+  background: linear-gradient(180deg, rgba(26, 82, 118, 0.05), rgba(255, 255, 255, 0.96));
+}
+
+.table-placeholder {
+  border-left-color: var(--aa-amber);
+  background: linear-gradient(180deg, rgba(243, 156, 18, 0.08), rgba(255, 255, 255, 0.96));
+}
+
+.figure-placeholder strong,
+.table-placeholder strong {
+  display: block;
+  font-family: $headings-font-family;
+  font-size: 0.95rem;
+  color: var(--aa-primary);
+  margin-bottom: 0.35rem;
+}
+
+.table-placeholder strong {
+  color: #8a5800;
+}
+
+.callout {
+  border-radius: 0.95rem;
+  border-width: 1px;
+  box-shadow: 0 10px 22px rgba(44, 62, 80, 0.05);
+  margin: 1.35rem 0;
+}
+
+.callout .callout-header {
+  border-bottom: 0;
+  padding-top: 0.65rem;
+  padding-bottom: 0.65rem;
+}
+
+.callout .callout-title-container {
+  font-family: $headings-font-family;
+  font-weight: 800;
+  letter-spacing: 0.01em;
+}
+
+.callout.in-practice {
+  border-left: 6px solid var(--aa-teal);
+  background: #E8F8F5;
+}
+
+.callout.in-practice .callout-header {
+  background: var(--aa-teal);
+  color: #fff;
+}
+
+.callout.watch-out {
+  border-left: 6px solid var(--aa-coral);
+  background: #FDEDEC;
+}
+
+.callout.watch-out .callout-header {
+  background: var(--aa-coral);
+  color: #fff;
+}
+
+.callout.connecting-dots {
+  border-left: 6px solid var(--aa-amber);
+  background: #FEF9E7;
+}
+
+.callout.connecting-dots .callout-header {
+  background: var(--aa-amber);
+  color: #fff;
+}
+
+.callout .callout-body-container {
+  padding-top: 0.9rem;
+  padding-bottom: 0.9rem;
+}
+
+.exercise-perspective {
+  border-radius: 0.85rem;
+  color: #fff;
+  padding: 0.7rem 1rem;
+  margin-top: 2.2rem;
+  margin-bottom: 1rem;
+}
+
+.exercise-perspective.financial-accounting {
+  background: var(--aa-amber);
+  color: var(--aa-ink);
+}
+
+.exercise-perspective.managerial-accounting {
+  background: var(--aa-teal);
+}
+
+.exercise-perspective.auditing {
+  background: var(--aa-coral);
+}
+
+main.content table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  margin: 1.4rem 0 1.7rem;
+  font-size: 0.98rem;
+  border: 1px solid var(--aa-border);
+  border-radius: 0.9rem;
+  overflow: hidden;
+}
+
+main.content table thead th {
+  background: var(--aa-primary);
+  color: #fff;
+  font-family: $headings-font-family;
+  font-weight: 700;
+  border-color: var(--aa-primary);
+}
+
+main.content table th,
+main.content table td {
+  padding: 0.7rem 0.9rem;
+  border: 1px solid var(--aa-border);
+}
+
+main.content table tbody tr:nth-child(even) {
+  background: #F2F3F4;
+}
+
+.quarto-figure img,
+img.figure-img,
+img.screenshot {
+  border: 1px solid #B0B0B0;
+  border-radius: 0.5rem;
+  box-shadow: 0 8px 18px rgba(44, 62, 80, 0.08);
+}
+
+.quarto-figure figcaption,
+.table-caption,
+figcaption {
+  color: var(--aa-muted);
+  font-size: 0.92rem;
+  margin-top: 0.55rem;
+}

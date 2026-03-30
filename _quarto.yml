@@ -7,9 +7,7 @@ book:
   date: "3/30/2026"
   chapters:
     - index.md
-    - intro.md
-
-
+    - chapter_01.md
 
 bibliography: references.bib
 
@@ -17,9 +15,19 @@ format:
   html:
     theme:
       - cosmo
-      - brand
+      - styles/book.scss
+    toc: true
+    toc-depth: 3
+    fig-cap-location: bottom
+    tbl-cap-location: top
+    link-external-newwindow: true
   pdf:
     documentclass: scrreprt
+    include-in-header: styles/book-pdf.tex
+    colorlinks: true
+    fig-cap-location: bottom
+    tbl-cap-location: top
 
-
-
+crossref:
+  fig-title: Figure
+  tbl-title: Table
