@@ -59,9 +59,7 @@ It is important to distinguish accounting analytics from related terms that stud
 
 A useful framework for understanding the scope of analytics divides it into three categories: descriptive, predictive, and prescriptive. These categories represent increasing levels of analytical complexity and are not mutually exclusive. Most real-world accounting analytics projects involve more than one type.
 
-::: {#fig-01-01 .figure-placeholder}
-**Figure 1.1.** The Analytics Continuum. A horizontal diagram showing three stages from left to right: Descriptive Analytics ("What happened?"), Predictive Analytics ("What might happen?"), and Prescriptive Analytics ("What should we do?"). Each stage includes a brief accounting example beneath it.
-:::
+![The Analytics Continuum.](visuals/ch01/fig-01-01-analytics-continuum.svg){#fig-01-01 fig-alt="A horizontal diagram showing three stages from left to right: Descriptive Analytics, Predictive Analytics, and Prescriptive Analytics. The stages answer the questions What happened, What might happen, and What should we do. Each stage includes a brief accounting example beneath it."}
 
 **Descriptive analytics** answers the question "what happened?" It involves summarizing historical data to understand past performance, identify trends, and describe the current state of affairs. Descriptive analytics is the foundation of most accounting work. When a financial analyst prepares a comparative income statement showing revenue by product line for the past four quarters, that is descriptive analytics. When an auditor stratifies accounts receivable by aging bucket to assess the adequacy of the allowance for doubtful accounts, that is also descriptive analytics. The tools of descriptive analytics include aggregation, grouping, sorting, filtering, and basic statistical measures such as totals, averages, and counts.
 
