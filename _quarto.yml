@@ -8,7 +8,15 @@ book:
   chapters:
     - index.md
     - 00_preface.md
-    - 01_chapter.md
+    - part: "Part I: Foundations of Accounting Analytics"
+      chapters:
+        - 01_chapter.md
+        - 02_chapter.md
+        - 03_chapter.md
+    - part: "Part III: Accounting Analytics with SQL"
+    - part: "Part IV: Data Visualization and Power BI"
+    - part: "Part V: Integrated and Applied Topics"
+
 
 format:
   html:

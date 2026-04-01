@@ -37,7 +37,7 @@ Open Educational Resource
 :::
 :::
 
-## Accounting Analytics: A Practical Approach with Excel, SQL, and Power BI
+## Accounting Analytics: A Practical Approach
 
 This is an open educational resource textbook that teaches accounting students to extract, prepare, analyze, and visualize financial and operational data using three tools widely adopted in professional practice. The book is designed for undergraduate and graduate accounting and business students with no prior analytics or programming experience.
 
@@ -83,4 +83,4 @@ If you are an instructor using this book in your course and would like to share 
 
 If you use this book in your teaching or research, please cite it as:
 
-> Codesso, M. (2026). *Accounting Analytics: A Practical Approach with Excel, SQL, and Power BI*.
+> Codesso, M. (2026). *Accounting Analytics: A Practical Approach*.
