@@ -7,12 +7,12 @@ book:
   date: "3/30/2026"
   chapters:
     - index.md
-    - 00_introduction.md
+    - 00_preface.md
     - 01_chapter.md
   sidebar:
     contents:
-      - text: "Introduction"
-        href: 00_introduction.md
+      - text: "Preface"
+        href: 00_preface.md
       - text: "The Role of Analytics in Accounting"
         href: 01_chapter.md
 
