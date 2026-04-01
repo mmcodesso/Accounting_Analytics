@@ -1,0 +1,78 @@
+<mxfile>
+  <diagram name="Tools Workflow Mapping" id="fig0103">
+    <mxGraphModel dx="1024" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="960" pageHeight="480" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- Stage header boxes (small, gray) -->
+        <mxCell id="h1" value="1. Define" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5D8DC;fontColor=#2C3E50;strokeColor=#D5D8DC;fontSize=10;fontStyle=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="110" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="h2" value="2. Access" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5D8DC;fontColor=#2C3E50;strokeColor=#D5D8DC;fontSize=10;fontStyle=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="110" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="h3" value="3. Prepare" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5D8DC;fontColor=#2C3E50;strokeColor=#D5D8DC;fontSize=10;fontStyle=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="320" y="40" width="110" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="h4" value="4. Analyze" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5D8DC;fontColor=#2C3E50;strokeColor=#D5D8DC;fontSize=10;fontStyle=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="460" y="40" width="110" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="h5" value="5. Visualize" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5D8DC;fontColor=#2C3E50;strokeColor=#D5D8DC;fontSize=10;fontStyle=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="600" y="40" width="110" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="h6" value="6. Communicate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#D5D8DC;fontColor=#2C3E50;strokeColor=#D5D8DC;fontSize=10;fontStyle=1;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="740" y="40" width="130" height="36" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrows between headers -->
+        <mxCell id="a12" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#B0B0B0;strokeWidth=1;" edge="1" source="h1" target="h2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a23" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#B0B0B0;strokeWidth=1;" edge="1" source="h2" target="h3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a34" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#B0B0B0;strokeWidth=1;" edge="1" source="h3" target="h4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a45" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#B0B0B0;strokeWidth=1;" edge="1" source="h4" target="h5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell id="a56" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#B0B0B0;strokeWidth=1;" edge="1" source="h5" target="h6" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+
+        <!-- SQL bar spanning stages 2-3 -->
+        <mxCell id="sql" value="SQL (Chapters 9-12)&#xa;Access and prepare data from databases" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1A5276;fontColor=#FFFFFF;strokeColor=#1A5276;fontSize=11;fontStyle=1;fontFamily=Arial;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="250" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- SQL dashed extension to Communicate -->
+        <mxCell id="sql_ext" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#1A5276;strokeWidth=1;dashed=1;dashPattern=5 3;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="740" y="120" width="130" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- Excel bar spanning stages 3-4 -->
+        <mxCell id="excel" value="Excel (Chapters 4-8)&#xa;Prepare, analyze, and model data" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#17A589;fontColor=#FFFFFF;strokeColor=#17A589;fontSize=11;fontStyle=1;fontFamily=Arial;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="320" y="210" width="250" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- Excel dashed extension to Communicate -->
+        <mxCell id="excel_ext" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#17A589;strokeWidth=1;dashed=1;dashPattern=5 3;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="740" y="210" width="130" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- Power BI bar spanning stages 4-5 -->
+        <mxCell id="pbi" value="Power BI (Chapters 13-16)&#xa;Analyze, visualize, and communicate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F39C12;fontColor=#FFFFFF;strokeColor=#F39C12;fontSize=11;fontStyle=1;fontFamily=Arial;arcSize=15;" vertex="1" parent="1">
+          <mxGeometry x="460" y="300" width="250" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- Power BI dashed extension to Communicate -->
+        <mxCell id="pbi_ext" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=#F39C12;strokeWidth=1;dashed=1;dashPattern=5 3;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="740" y="300" width="130" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- "Communicate" labels in dashed boxes -->
+        <mxCell id="lbl1" value="Communicate" style="text;html=1;align=center;verticalAlign=middle;fontColor=#5D6D7E;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="755" y="135" width="100" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl2" value="Communicate" style="text;html=1;align=center;verticalAlign=middle;fontColor=#5D6D7E;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="755" y="225" width="100" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="lbl3" value="Communicate" style="text;html=1;align=center;verticalAlign=middle;fontColor=#5D6D7E;fontSize=10;fontFamily=Arial;" vertex="1" parent="1">
+          <mxGeometry x="755" y="315" width="100" height="25" as="geometry"/>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
