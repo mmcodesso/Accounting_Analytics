@@ -9,12 +9,6 @@ book:
     - index.md
     - 00_preface.md
     - 01_chapter.md
-  sidebar:
-    contents:
-      - text: "Preface"
-        href: 00_preface.md
-      - text: "The Role of Analytics in Accounting"
-        href: 01_chapter.md
 
 format:
   html:

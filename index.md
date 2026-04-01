@@ -37,7 +37,7 @@ Open Educational Resource
 :::
 :::
 
-# Accounting Analytics: A Practical Approach with Excel, SQL, and Power BI
+## Accounting Analytics: A Practical Approach with Excel, SQL, and Power BI
 
 This is an open educational resource textbook that teaches accounting students to extract, prepare, analyze, and visualize financial and operational data using three tools widely adopted in professional practice. The book is designed for undergraduate and graduate accounting and business students with no prior analytics or programming experience.
 
@@ -69,12 +69,12 @@ This work is licensed under [Creative Commons Attribution-ShareAlike 4.0 Interna
 
 ## About the Author
 
-**[Author Name]** is [title] at [Institution], where [he/she/they] teaches courses in [courses] and conducts research in accounting information systems, information management, and emerging technologies. [Optional: additional sentence about research focus or professional experience.]
+**Mauricio Codesso** is Assistant Teaching Professor at Northeastern Unversity, where he teaches courses in accounting, data analytics and conducts research in accounting information systems, information management, and emerging technologies.
 
 
 ## Contributing
 
-This book is a living project. Contributions from instructors, students, and practitioners are welcome and encouraged. If you find an error, have a suggestion for improving an exercise, or want to propose a new example, you can open an issue or submit a pull request on the book's [GitHub repository](https://github.com/[placeholder]/accounting-analytics-textbook). Feedback on clarity, accuracy, and coverage helps make this resource better for everyone who uses it.
+This book is a living project. Contributions from instructors, students, and practitioners are welcome and encouraged. If you find an error, have a suggestion for improving an exercise, or want to propose a new example, you can open an issue or submit a pull request on the book's [GitHub repository](https://github.com/mmcodesso/Accounting_Analytics). Feedback on clarity, accuracy, and coverage helps make this resource better for everyone who uses it.
 
 If you are an instructor using this book in your course and would like to share your experience or adapted materials, please reach out through the repository. The OER model works best when the community around the resource is active.
 
@@ -83,4 +83,4 @@ If you are an instructor using this book in your course and would like to share 
 
 If you use this book in your teaching or research, please cite it as:
 
-> [Author Last Name], [First Initial]. (2026). *Accounting Analytics: A Practical Approach with Excel, SQL, and Power BI*. [Publisher/Self-published]. [URL]
+> Codesso, M. (2026). *Accounting Analytics: A Practical Approach with Excel, SQL, and Power BI*.
