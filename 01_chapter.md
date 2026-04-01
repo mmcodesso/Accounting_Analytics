@@ -110,7 +110,7 @@ A survey of accounting professionals conducted by Kokina and Dagiliene (2017) fo
 
 Before learning specific tools, it is helpful to understand the general process that all accounting analytics projects follow. Whether you are building a revenue summary in Excel, writing an audit query in SQL, or designing a dashboard in Power BI, the work progresses through the same sequence of stages. This textbook is organized around these stages, and understanding them now will help you see how the chapters connect.
 
-![The Accounting Analytics Workflow.](visuals\ch01\fig-01-02-analytics-workflow.svg){#fig-01-02 fig-alt="A process flowchart showing six stages in sequence: (1) Define the Question, (2) Identify and Access the Data, (3) Prepare and Clean the Data, (4) Analyze the Data, (5) Visualize and Present the Results, (6) Communicate Findings and Recommendations. Each stage includes a one-sentence description."}
+![The Accounting Analytics Workflow.](visuals/ch01/fig-01-02-analytics-workflow.svg){#fig-01-02 fig-alt="A process flowchart showing six stages in sequence: (1) Define the Question, (2) Identify and Access the Data, (3) Prepare and Clean the Data, (4) Analyze the Data, (5) Visualize and Present the Results, (6) Communicate Findings and Recommendations. Each stage includes a one-sentence description."}
 
 The first stage is defining the question. Every analytics project begins with a clear statement of the problem or question to be addressed. In the opening scenario of this chapter, the controller's question was specific: why did gross margins decline in the most recent quarter? A well-defined question guides every subsequent decision, from which data to collect to which visualizations to create. Vague questions produce vague answers. The ability to translate a business concern into an analytical question is one of the most important skills an accountant can develop.
 
@@ -158,7 +158,7 @@ Power BI is most powerful when the goal is to create a reusable, interactive rep
 
 Part IV of this textbook (Chapters 13 through 16) is devoted to Power BI. Students will learn visualization principles, the Power BI interface, data modeling with DAX, and interactive dashboard design.
 
-![The Three Tools and Their Roles in the Analytics Workflow.](visuals\ch01\fig-01-03-tools-workflow-mapping.svg){#fig-01-03 fig-alt="A diagram showing Excel, SQL, and Power BI mapped to the six stages of the analytics workflow, indicating where each tool is primarily used. SQL maps primarily to stages 2 and 3 (accessing and preparing data). Excel maps primarily to stages 3 and 4 (preparing and analyzing data). Power BI maps primarily to stages 4 and 5 (analyzing and visualizing data). All three tools contribute to stage 6 (communication)."}
+![The Three Tools and Their Roles in the Analytics Workflow.](visuals/ch01/fig-01-03-tools-workflow-mapping.svg){#fig-01-03 fig-alt="A diagram showing Excel, SQL, and Power BI mapped to the six stages of the analytics workflow, indicating where each tool is primarily used. SQL maps primarily to stages 2 and 3 (accessing and preparing data). Excel maps primarily to stages 3 and 4 (preparing and analyzing data). Power BI maps primarily to stages 4 and 5 (analyzing and visualizing data). All three tools contribute to stage 6 (communication)."}
 
 ::: {.callout-note .connecting-dots icon=false}
 ## Connecting the Dots
@@ -206,13 +206,13 @@ From a financial accounting perspective, ERPNext provides everything needed to p
 : Comparison of the Three Textbook Datasets {#tbl-01-02}
 
 
-![implified Entity-Relationship Diagram for Northwind Traders.](visuals\ch01\fig-01-04-northwind-er.svg){#fig-01-04 fig-alt="Shows the eight core tables (Customers, Orders, OrderDetails, Products, Categories, Suppliers, Employees, Shippers) and their relationships using crow's foot notation. This is a simplified preview; the full diagram appears in Chapter 3 and Appendix B."}
+![implified Entity-Relationship Diagram for Northwind Traders.](visuals/ch01/fig-01-04-northwind-er.svg){#fig-01-04 fig-alt="Shows the eight core tables (Customers, Orders, OrderDetails, Products, Categories, Suppliers, Employees, Shippers) and their relationships using crow's foot notation. This is a simplified preview; the full diagram appears in Chapter 3 and Appendix B."}
 
 
-![Simplified Entity-Relationship Diagram for Adventure Works Cycles.](visuals\ch01\fig-01-05-adventureworks-er.svg){#fig-01-05 fig-alt="Shows a selected subset of tables from the Sales, Production, and Purchasing schemas to illustrate the database's scope without overwhelming the reader. The full diagram appears in Chapter 3 and Appendix B."}
+![Simplified Entity-Relationship Diagram for Adventure Works Cycles.](visuals/ch01/fig-01-05-adventureworks-er.svg){#fig-01-05 fig-alt="Shows a selected subset of tables from the Sales, Production, and Purchasing schemas to illustrate the database's scope without overwhelming the reader. The full diagram appears in Chapter 3 and Appendix B."}
 
 
-![Simplified Entity-Relationship Diagram for ERPNext Demo Company.](visuals\ch01\fig-01-06-erpnext-er.svg){#fig-01-06 fig-alt="Shows the chart of accounts, general ledger entries, journal entries, sales invoices, and payment entries tables and their relationships. The full diagram appears in Chapter 3 and Appendix B."}
+![Simplified Entity-Relationship Diagram for ERPNext Demo Company.](visuals/ch01/fig-01-06-erpnext-er.svg){#fig-01-06 fig-alt="Shows the chart of accounts, general ledger entries, journal entries, sales invoices, and payment entries tables and their relationships. The full diagram appears in Chapter 3 and Appendix B."}
 
 
 ::: {.callout-warning .watch-out icon=false}
@@ -265,7 +265,7 @@ This textbook is organized into five parts that follow the progression of the an
 **Part V, Integrated and Applied Topics** (Chapters 17 through 20), brings everything together. These chapters apply the full toolkit to financial reporting analytics, cost and management accounting analytics, forensic accounting and fraud detection, and emerging technologies. The chapters in Part V require you to move between Excel, SQL, and Power BI within a single project, just as you would in professional practice.
 
 
-![Book Organization Map.](visuals\ch01\fig-01-08-book-organization-map.svg){#fig-01-08 fig-alt="A visual roadmap showing the five parts of the book as a progression from left to right. Part I (Foundations) leads to Part II (Excel), Part III (SQL), and Part IV (Power BI), which converge into Part V (Integrated Topics). Each part shows its chapter numbers and the tools and datasets used."}
+![Book Organization Map.](visuals/ch01/fig-01-08-book-organization-map.svg){#fig-01-08 fig-alt="A visual roadmap showing the five parts of the book as a progression from left to right. Part I (Foundations) leads to Part II (Excel), Part III (SQL), and Part IV (Power BI), which converge into Part V (Integrated Topics). Each part shows its chapter numbers and the tools and datasets used."}
 
 
 Each chapter follows a consistent structure. It opens with learning objectives and a motivating scenario, presents concepts through narrative explanation and guided tutorials, and closes with a summary, key terms, review questions, and applied exercises organized by three accounting perspectives: Financial Accounting, Managerial Accounting, and Auditing. Five comprehensive cases, one at the end of each part, provide extended multi-tool investigations that integrate the material from all chapters in that part.
