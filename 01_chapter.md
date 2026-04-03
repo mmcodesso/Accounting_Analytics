@@ -333,107 +333,167 @@ Every analytical project follows a consistent workflow: define the question, acc
 **1.** Which of the following best describes the primary reason that analytics skills have become essential for accounting professionals?
 
 A. Accounting standards now require the use of data visualization tools in all financial reports.
+
 B. The volume and complexity of financial and operational data have grown beyond what traditional manual methods can effectively analyze.
+
 C. Analytics skills have replaced the need for accountants to understand generally accepted accounting principles.
+
 D. Employers prefer to hire data scientists rather than accountants for financial reporting roles.
+
 
 **2.** A management accountant prepares a report showing total manufacturing costs by product line for the past four quarters and calculates the percentage change from quarter to quarter. This activity is best classified as which type of analytics?
 
 A. Prescriptive analytics
+
 B. Predictive analytics
+
 C. Descriptive analytics
+
 D. Diagnostic analytics
+
 
 **3.** An auditor builds a regression model using monthly revenue data from the prior year to establish an expected range for current-year monthly revenue. The auditor then compares actual monthly revenue to the expected range and investigates months where the difference exceeds the threshold. This procedure involves which type of analytics?
 
 A. Descriptive analytics only
+
 B. Predictive analytics
+
 C. Prescriptive analytics
+
 D. None of the above, because regression is a statistical technique rather than an analytics type
+
 
 **4.** A cost accountant uses Excel's Solver tool to determine the combination of products that maximizes total contribution margin given constraints on machine hours and raw material availability. This activity is best classified as which type of analytics?
 
 A. Descriptive analytics
+
 B. Predictive analytics
+
 C. Prescriptive analytics
+
 D. Exploratory analytics
+
 
 **5.** Which of the following is the correct sequence of stages in the accounting analytics workflow as described in this chapter?
 
 A. Access data, define the question, analyze, clean, visualize, communicate
+
 B. Define the question, access data, clean and prepare data, analyze, visualize, communicate
+
 C. Analyze data, define the question, visualize, clean, communicate, access data
+
 D. Define the question, visualize, access data, analyze, clean, communicate
+
 
 **6.** Which of the three textbook datasets contains a chart of accounts and general ledger entries?
 
 A. Northwind Traders
+
 B. Adventure Works Cycles
+
 C. ERPNext Demo Company
+
 D. All three datasets contain a chart of accounts
+
 
 **7.** Which tool covered in this textbook is most appropriate for extracting data directly from a relational database?
 
 A. Microsoft Excel
+
 B. SQL
+
 C. Microsoft Power BI
+
 D. The Data Analysis ToolPak
+
 
 **8.** The Northwind dataset is introduced first in this textbook primarily because it:
 
 A. Contains the most realistic accounting data of the three datasets
+
 B. Is the only dataset that includes both Excel and SQLite formats
+
 C. Is compact and simple enough for students to learn new tools without being overwhelmed by data complexity
+
 D. Includes manufacturing and production data needed for early exercises
+
 
 **9.** Which professional organization's competency framework has been updated to include data analytics as a core skill for management accountants?
 
 A. The Financial Accounting Standards Board (FASB)
+
 B. The Institute of Management Accountants (IMA)
+
 C. The Securities and Exchange Commission (SEC)
+
 D. The International Accounting Standards Board (IASB)
+
 
 **10.** An accountant needs to create an interactive dashboard that allows multiple department managers to filter financial results to their own cost center and drill down into individual line items. Which tool is best suited for this purpose?
 
 A. A SQL query
+
 B. A static Excel spreadsheet
+
 C. Microsoft Power BI
+
 D. The Excel Data Analysis ToolPak
+
 
 **11.** In the context of a relational database, a foreign key is best described as:
 
 A. A column that uniquely identifies each row in its own table
+
 B. A column in one table that references the primary key of another table, establishing a relationship between them
+
 C. A password or security credential used to access the database
+
 D. A column that stores encrypted financial data for confidentiality purposes
+
 
 **12.** According to this chapter, which stage of the analytics workflow is typically the most time-consuming?
 
 A. Defining the question
+
 B. Data preparation and cleaning
+
 C. Visualization
+
 D. Communication of findings
+
 
 **13.** The Adventure Works Cycles dataset is most valuable for managerial accounting exercises because it includes:
 
 A. A complete chart of accounts and general ledger
+
 B. Manufacturing cost data including work orders, bills of materials, and scrap tracking
+
 C. Only sales and customer data
+
 D. Budget records and cost center allocations
+
 
 **14.** Which of the following best describes why this textbook provides datasets in both Excel and SQLite formats?
 
 A. Excel files are used only for financial accounting exercises and SQLite files are used only for auditing exercises
+
 B. Students can work with the same underlying data regardless of whether a given chapter uses Excel, SQL, or Power BI
+
 C. SQLite databases are smaller than Excel files and require less storage space
+
 D. Excel format is for undergraduate students and SQLite format is for graduate students
+
 
 **15.** A financial analyst uses PivotTables to summarize total revenue by product category and fiscal quarter. The analyst notices that revenue in one category declined sharply in the third quarter and investigates the underlying transactions to determine the cause. The summarization step is an example of descriptive analytics. What type of analytics would applying a regression model to forecast fourth-quarter revenue in that category represent?
 
 A. Descriptive analytics
+
 B. Predictive analytics
+
 C. Prescriptive analytics
+
 D. The regression would not be considered analytics because it involves statistics
+
 
 ---
 
