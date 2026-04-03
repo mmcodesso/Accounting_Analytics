@@ -21,10 +21,37 @@ jobs:
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
 
-      - uses: quarto-dev/quarto-actions/setup@v2
+      - name: Set up Quarto with TinyTeX
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          tinytex: true
 
-      - name: Render
+      - name: Install SVG converter for DOCX builds
+        run: sudo apt-get update && sudo apt-get install --yes librsvg2-bin
+
+      - name: Render HTML
         run: quarto render --to html
+
+      - name: Render PDF
+        run: quarto render --to pdf
+
+      - name: Render EPUB
+        run: quarto render --to epub
+
+      - name: Render DOCX
+        run: quarto render --to docx
+
+      - name: Copy downloadable book files into published site
+        run: |
+          mkdir -p _book/downloads
+          for ext in pdf epub docx; do
+            file="$(find _book -maxdepth 1 -type f -name "*.${ext}" | head -n 1)"
+            if [ -z "${file}" ]; then
+              echo "No .${ext} file found in _book"
+              exit 1
+            fi
+            cp "${file}" "_book/downloads/book-latest.${ext}"
+          done
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v4

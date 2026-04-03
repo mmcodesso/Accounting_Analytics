@@ -8,6 +8,7 @@ book:
   chapters:
     - index.md
     - 00_preface.md
+    - downloads.md
     - part: "Part I: Foundations of Accounting Analytics"
       chapters:
         - 01_chapter.md
@@ -36,6 +37,7 @@ format:
     colorlinks: true
     fig-cap-location: bottom
     tbl-cap-location: top
+  docx: default
 
 crossref:
   fig-title: Figure

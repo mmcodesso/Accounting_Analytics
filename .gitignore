@@ -32,3 +32,4 @@ __pycache__/
 /.quarto/
 **/*.quarto_ipynb
 *.bkp
+datasets/
