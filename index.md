@@ -76,6 +76,8 @@ This work is licensed under [Creative Commons Attribution-ShareAlike 4.0 Interna
 
 This book is a living project. Contributions from instructors, students, and practitioners are welcome and encouraged. If you find an error, have a suggestion for improving an exercise, or want to propose a new example, you can open an issue or submit a pull request on the book's [GitHub repository](https://github.com/mmcodesso/Accounting_Analytics). Feedback on clarity, accuracy, and coverage helps make this resource better for everyone who uses it.
 
+If you encounter an error in the text, examples, datasets, or links, please report it on the [GitHub Issues page](https://github.com/mmcodesso/Accounting_Analytics/issues). Issue reports help us correct problems quickly and keep the book reliable for everyone using it.
+
 If you are an instructor using this book in your course and would like to share your experience or adapted materials, please reach out through the repository. The OER model works best when the community around the resource is active.
 
 
