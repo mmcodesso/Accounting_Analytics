@@ -1,4 +1,4 @@
-# Downloads
+# Downloads {.unnumbered}
 
 This page provides access to the latest version of the book and the datasets used throughout the chapters.
 As the project evolves, we will add versioned releases for major editions.
