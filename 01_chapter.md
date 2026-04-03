@@ -235,9 +235,7 @@ These three datasets are fictional companies created for educational purposes. T
 
 **Step 3.** Click on the OrderDetails worksheet. Examine the columns, which include OrderID, ProductID, UnitPrice, Quantity, and Discount. Notice that OrderID appears in both the Orders and OrderDetails worksheets. This column links the two tables together, a concept you will study in depth in Chapter 3 and use extensively when writing SQL joins in Chapters 10 and 11.
 
-::: {#fig-01-07 .figure-placeholder}
-**Figure 1.7.** Screenshot of the Northwind Orders worksheet in Excel, showing column headers and the first several rows of data. Annotated callouts identify the OrderID, CustomerID, OrderDate, and Freight columns.
-:::
+![Screenshot of the Northwind Orders worksheet in Excel.](visuals/ch01/fig-01-04-northwind-orders.png){#fig-01-07 fig-alt="Screenshot of the Northwind Orders worksheet in Excel, showing column headers and the first several rows of data. Annotated callouts identify the OrderID, CustomerID, OrderDate, and Freight columns."}
 
 **Step 4.** Close Northwind.xlsx and open AdventureWorks.xlsx. This workbook contains significantly more worksheets than Northwind. Click through several worksheet tabs and note the variety of data available. Look for worksheets related to sales (such as SalesOrderHeader and SalesOrderDetail), production (such as WorkOrder and Product), purchasing (such as PurchaseOrderHeader and Vendor), and human resources (such as Employee and Department).
 
