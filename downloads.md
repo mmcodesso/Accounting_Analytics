@@ -20,12 +20,12 @@ These files are automatically updated whenever the book is rebuilt.
 The datasets below are hosted on GitHub Releases to support large file sizes and fast global downloads.
 
 ### **Northwind**
-- [Northwind (SQLite)](https://github.com/USER/REPO/releases/download/v1.0-data/northwind.sqlite)
-- [Northwind (Excel)](https://github.com/USER/REPO/releases/download/v1.0-data/northwind.xlsx)
+- [Northwind (SQLite)](https://github.com/mmcodesso/Accounting_Analytics/releases/download/v1.0-data/Northwind.sqlite)
+- [Northwind (Excel)](https://github.com/mmcodesso/Accounting_Analytics/releases/download/v1.0-data/Northwind.xlsx)
 
 ### **AdventureWorks**
-- [AdventureWorks (SQLite)](https://github.com/USER/REPO/releases/download/v1.0-data/adventureworks.sqlite)
-- [AdventureWorks (Excel)](https://github.com/USER/REPO/releases/download/v1.0-data/adventureworks.xlsx)
+- [AdventureWorks (SQLite)](https://github.com/mmcodesso/Accounting_Analytics/releases/download/v1.0-data/AdventureWorks.sqlite)
+- [AdventureWorks (Excel)](https://github.com/mmcodesso/Accounting_Analytics/releases/download/v1.0-data/AdventureWorks.xlsx)
 
 ---
 
